@@ -1,0 +1,229 @@
+body{
+    font-family: 'Spartan';
+}
+
+/* pricing css start  */
+.gray-bg{
+    background:#F6F9FC ;
+}
+.pricing-text{}
+.pricing-text h5 {
+    color: #0B5ED7;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+.pricing-text h2 {
+    font-size: 39px;
+    font-weight: 700;
+    color: #111;
+    position: relative;
+}
+.pricing-text h2::before {
+    content: "";
+    top: 123%;
+    left: 514px;
+    position: absolute;
+    background: #0B5ED7;
+    width: 83px;
+    height: 3px;
+}
+.pricing-text p {
+    font-size: 17px;
+    color: #606060;
+    font-weight: 500;
+    margin-bottom: 49px !important;
+    line-height: 1.8rem;
+    margin-top: 40px !important;
+}
+
+.pricing-box {
+    background: #fff;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+    padding: 10px;
+    transition: .5s;
+}
+.pricing-box h5 {
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 27px;
+    margin-bottom: 30px;
+    transition: .5s;
+}
+.pricing-box h2 {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 14px;
+    padding-bottom: 35px;
+    margin-top: 36px !important;
+    color: #111;
+    transition: .5s;
+}
+.pricing-box span {
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    color: #767676;
+    margin-top: 10px;
+    margin-bottom: 13px;
+    transition: .5s;
+}
+.btn-primary {
+    border-radius: 20px;
+    transition: .5s;
+    border: none;
+    position: relative;
+    background-color: #3066ED;
+    color: #fff;
+    z-index: 1;
+
+}
+.btn-primary::before{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    width:0;
+    height: 100%;
+    background:#3066ED;
+    color:#fff !important;
+    border-radius: 20px;
+    transition: .5s;
+    
+    z-index:-1;
+}
+.btn-primary:hover:before{
+    width: 100%;
+}
+
+.pricing-box:hover{
+    background: #3066ED !important;
+}
+.pricing-box:hover h5{
+    color: #fff !important;
+}
+.pricing-box:hover h2{
+    color: #fff !important;
+}
+.pricing-box:hover span{
+    color: #fff !important;
+}
+.pricing-box:hover .btn-primary{
+    color: #3066ED !important;
+    background: #fff;
+}
+
+/* purchase section  */
+
+.purchase-section{
+    background: url(img/free-bg.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.purchase-details::before{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(66, 27, 209, 0.4);
+    z-index:-1;
+}
+.purchase-details h5, h2, p{
+    color: #fff;
+}
+.purchase-details h5 {
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+.purchase-details h2 {
+    position: relative;
+    font-size: 40px;
+    font-weight: 600;
+    width: 700px;
+    margin-bottom: 37px !important;
+}
+.purchase-details p {
+    font-size: 20px;
+    margin-bottom: 35px !important;
+}
+.purchase-details h2::before {
+    content: "";
+    top: 123%;
+    left: 319px;
+    position: absolute;
+    background: #fff;
+    width: 83px;
+    height: 3px;
+}
+.purchase-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #3066ED;
+    background: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 20px;
+    position: relative;
+
+    z-index: 9;
+}
+/* .purchase-btn:hover{
+    color: #fff;
+    background: #3066ED;
+} */
+.purchase-btn::after{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    
+    background: #3066ED;
+    z-index: -9;
+    transition: .5s;
+}
+.purchase-btn:hover::after{
+    width: 100%;
+    border-radius: 20px;
+  
+}
+
+/* newesletter section css  */
+
+.news{
+    background: #0B5ED7;
+    padding: 50px;
+}
+.news h3 {
+    color: #fff;
+    font-size: 33px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.news p{}
+input.form-control {
+    width: 260px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+.new-btn {
+    color: #fff !important;
+    font-weight: 700;
+    border: 1px solid #fff;
+}
+.aa {
+    background: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .15);
+    padding: 45px 25px;
+}
+.aa h4 {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 86px;
+}
